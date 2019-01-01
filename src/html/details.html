@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>details</title>
+    <link rel="stylesheet" href="../css/index.css">
+    <link rel="stylesheet" href="../css/reset.css">
+    <link rel="stylesheet" href="../css/details.css">
+
+  </head>
+  <body>
+
+  <!-- 导航区域 -->
+  <div id="header"></div>
+
+
+  <!-- 详情页 -->
+  <div class="details">
+    <div class="title">电视&nbsp;&nbsp;<span>&gt;</span>&nbsp;&nbsp;曲面电视&nbsp;&nbsp;<span>&gt;</span>&nbsp;&nbsp;<span>LED65UC6&nbsp;65吋超薄曲面4K</span></div>
+
+     <div class="imgdet wrap">
+        <!-- 左侧图片列表 -->
+        <div class="imglist">
+            <ul>
+                <li class="active">
+                    <img src="../img/0001.png" alt="">
+                </li>
+                <li>
+                    <img src="../img/0002.png" alt="">
+                </li>
+                <li>
+                    <img src="../img/0003.png" alt="">
+                </li>
+                <li>
+                    <img src="../img/0004.png" alt="">
+                </li>
+                <li>
+                    <img src="../img/0005.png" alt="">
+                </li>
+            </ul>
+        </div>
+        <div class="imgpart">
+            <!-- 图片展示 -->
+            <div class="pic">
+                <img src="../img/0001.png" alt="">
+                <!-- 镜片 -->
+                <div class="magnify"></div>
+            </div>
+            <!-- 放大后的图片, 放大后的图片的尺寸要设置为展示图片的倍数（2倍）-->
+            <div class="bigpic">
+                <img src="../img/0001.png" alt="">
+            </div>
+        </div>
+    </div>
+
+
+    <!-- 右侧内容 -->
+    <div class="right">
+      <h3>LED65UC6 65吋超薄曲面4K </h3>
+      <p>42核4K HDR人工智能电视 2GB+16GB</p>
+      <span>¥5699.00&nbsp;&nbsp;<del>¥6900.00</del></span>
+      <div class="weixin">手机购买</div>
+      <div class="weixin2"></div>
+      <div class="djs">
+        <button>送赠品</button>
+        <p>【国庆“佳”团圆】10月01日-10月07日,满3000减100元</p>
+        <div class="count_down">
+            <span class="day_num">
+            </span><span class="hour_num">
+            </span><span class="min_num">
+            </span><span class="sec_num"></span>
+        </div>
+      </div>
+      <!-- 地区选择 -->
+      <div class="outer">
+       &nbsp;&nbsp;配送至:&nbsp;&nbsp;<select name="province" id="province">
+          <option value="请选择">北京</option>
+        </select>
+        <select name="city" id="city">
+          <option value="请选择">延庆县</option>
+        </select>
+        <select name="town" id="town">
+          <option value="请选择">珍珠泉乡</option>
+        </select>&nbsp;&nbsp;有货
+      </div>
+      <div class="num">
+          <i>数量</i>
+          <div class="sub">-</div>
+          <input type="text" value='1'>
+          <div class="add">+</div>
+      </div>
+      <div class="final">
+        <a href="list.html">立即购买</a>
+        <a href="cart.html">加入购物车</a>
+      </div>
+    </div>
+ </div>
+  
+
+  
+  
+
+  <!-- 底部区域 -->
+  <div id="footer"></div>
+  </body>
+</html>
+<script src='../js/lib/jquery-1.11.3.js'></script>
+<script src='../js/common/header/header.js'></script>
+<script src='../js/common/header/page.js'></script>
+<script src='../js/common/header/search.js'></script>
+<script src="../js/common/header/scrollTop.js"></script>
+<script src='../js/common/footer/footer.js'></script>
+<script src='../js/common/footer/page.js'></script>
+<script src='../js/js/details.js'></script>
+<script src="../js/plugin/fdj.js"></script>
+<script src='../js/plugin/countDown.js'></script>
+<script src='../js/plugin/area.js'></script>
+<script src='../js/plugin/select.js'></script>
+<script type="text/javascript">
+  //倒计时效果
+  $(function(){
+    $(".count_down").countDown({
+      startTimeStr:'2018/09/24 00:00:00',  //开始时间
+          endTimeStr:'2018/10/07 23:59:59',//结束时间
+          daySelector:".day_num",
+          hourSelector:".hour_num",
+          minSelector:".min_num",
+          secSelector:".sec_num"
+    });
+  })
+</script>

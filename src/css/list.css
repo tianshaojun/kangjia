@@ -1,0 +1,110 @@
+/*导航*/
+.nav{
+	box-shadow: 3px 3px 3px #999;
+}
+/*列表页*/
+.goods{
+	width:1142px;
+	left:50%;
+	height:760px;
+	margin:110px auto 0;
+}
+.goods li{
+	float: left;
+	width:270px;
+	height:360px;
+	margin-right:20px;
+	margin-bottom:20px;
+	outline:1px solid #999;
+	cursor: pointer;
+}
+.goods li:hover{
+	outline:1px solid #EE3E1B;
+}
+.goods li:nth-child(4n){
+	margin-right:0;
+}
+.goods li img{
+	width:220px;
+	height:220px;
+	margin-left:25px;
+	margin-top:10px;
+}
+.goods li p{
+	width:230px;
+	height:28px;
+	line-height:14px;
+	text-align: center;
+	font-size: 14px;
+	color:#333;
+	margin-top:15px;
+	padding:0 20px;
+}
+.goods li span{
+	display: block;
+	height:14px;
+	line-height: 14px;
+	color:#F20F34;
+	font-size:14px;
+	margin-top:10px;
+	width:100%;
+	text-align: center;
+}
+/*.goods li .sub{
+	float: left;
+	width:30px;
+	height:30px;
+	line-height: 30px;
+	border:1px solid #CCCCCC;
+	margin-top:15px;
+	margin-left:25px;
+	text-align: center;
+}
+.goods li  input{
+	float: left;
+	width:60px;
+	height:30px;
+	line-height:30px;
+	border-top:1px solid #ccc;
+	border-bottom:1px solid #ccc;
+	margin-top:15px;
+	text-align: center;
+	outline: none;
+}
+.goods li .add{
+	float: left;
+	width:30px;
+	height:30px;
+	line-height:30px;
+	border:1px solid #ccc;
+	margin-top:15px;
+	text-align: center;
+}*/
+.goods li button{
+    outline: none;
+	width:80px;
+	height:32px;
+	color:#FF4D50;
+	background: #fff;
+	border-radius:3px;
+	margin-left:100px;
+	margin-top:15px;
+	float: left;
+	border:1px solid #D5D5D5;
+	line-height: 32px;
+}
+/*购物车跳转*/
+.local{
+	width:1142px;
+	height:60px;
+	margin:0 auto;
+	line-height: 60px;
+	font-size:24px;
+}
+.shop{
+	padding:10px;
+	cursor: pointer;
+}
+.shop .car{
+	color:red;
+}

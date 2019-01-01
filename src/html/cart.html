@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>cart</title>
+    <link rel="stylesheet" href="../css/index.css">
+    <link rel="stylesheet" href="../css/reset.css">
+    <link rel="stylesheet" href="../css/cart.css">
+  </head>
+  <body>
+
+  <!-- 导航区域 -->
+  <div id="header"></div>
+
+  <!--购物车 -->
+      <ul class="cart">
+        <h2>购物车<span>Shopping Cart</span></h2>
+        <div class="title">
+           <span> 您当前未登录，登录后享受会员专属折扣及优惠促销，更可长久保存购物车数据</span>
+           <a href="register.html">立即登录</a>
+        </div>
+      </ul>
+
+
+      <!-- 表头 -->
+      <div id="shopping">
+            <ul class="header">
+                <li>
+                  <input type="checkbox" id='all1'>
+                  <label for="all1"><span>全选</span></label>
+                </li>
+                <li>商品</li>
+                <li>单价</li>
+                <li>数量</li>
+                <li>小计</li>
+                <li>操作</li>
+            </ul>
+     </div> 
+
+
+  <!-- 表尾 -->
+  <ul class="end">
+    <li>
+      <input type="checkbox" id='all2'>
+      <label for="all2"><span>全选</span></label>
+    </li>
+    <li class="seleted">删除选中</li>
+    <li>
+      <p>已选择&nbsp;<em id='totalNum'>0</em>&nbsp;件商品,优惠后金额(不含运费):&nbsp;<b id="totalPrice">¥&nbsp;0.00</b></p>
+      <p>会员身份节省了:&nbsp;￥0.00</p>
+      <p>促销优惠节省了:&nbsp;￥0.00</p>
+      <p><span>减价</span><i>价格优惠￥100.00出售</i></p>
+    </li>
+    <li><button>去结算</button></li>
+  </ul>
+
+  <!-- 底部区域 -->
+  <div id="footer"></div>
+
+</body>
+</html>
+<script src='../js/lib/jquery-1.11.3.js'></script>
+<script src='../js/common/header/header.js'></script>
+<script src='../js/common/header/page.js'></script>
+<script src='../js/common/header/search.js'></script>
+<script src="../js/common/header/scrollTop.js"></script>
+<script src='../js/common/footer/footer.js'></script>
+<script src='../js/common/footer/page.js'></script>
+<script src='../js/js/cart.js'></script>
+

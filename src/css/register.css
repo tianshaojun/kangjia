@@ -1,0 +1,212 @@
+/*导航*/
+.nav{
+	box-shadow: 3px 3px 3px #999;
+}
+/*登录*/
+.register{
+	width:100%;
+	height:588px;
+	background:url('../img/sign.jpg') 50% 0 no-repeat;
+	position: relative;
+	overflow: hidden;
+}
+.register .form{
+	width:1142px;
+	height:314px;
+	margin:97px auto 0;
+}
+.register .form .content{
+	float: right;
+	width:449px;
+	height:312px;
+	border:1px solid #ddd;
+	border-radius: 3px;
+}
+.register .form .content .title{
+	height:42px;
+	background: #F5F5F5;
+	padding:0 15px;
+	border-bottom:1px solid #ddd;
+}
+.register .form .content .title a:nth-child(1){
+	line-height:42px;
+	color:#333;
+}
+.register .form .content .title a:nth-child(2){
+	line-height:42px;
+	color:#333;
+	float:right;
+	width:115px;
+	height:22px;
+	line-height:22px;
+	background: #F99E1E;
+	font-size:12px;
+	text-align: center;
+	margin-top:10px;
+	color:#fff;
+}
+.register .form .content .title a:nth-child(2):hover{
+	background: #DE8406;
+}
+.register .form .content .body{
+	background: #fff;
+	padding:15px;
+	width:419px;
+	height:239px;
+}
+.register .form .content .body p{
+	/*background:red;*/
+	width:100%;
+	height:34px;
+	margin-bottom:15px;
+	position: relative;
+}
+.register .form .content .body p input{
+	width:330px;
+	height:32px;
+	border:1px solid #ddd;
+	border-radius:3px;
+	float: right;
+	padding-left:12px;
+	outline:none;
+}
+.register .form .content .body p span{
+	float: left;
+	height:34px;
+	line-height:34px;
+	text-align: right;
+	width:50px;
+	float:left;
+	font-size:14px;
+	font-weight:bold;
+}
+.register .form .content .body p #inp3{
+	width:155px;
+	float: left;
+	margin-left:25px;
+}
+.register .form .content .body p i{
+	float: left;
+	width:67px;
+	height:20px;
+	background: #ECECFB;
+	text-align: center;
+	line-height:20px;
+	margin-left:30px;
+	margin-top:5px;
+}
+.register .form .content .body p em{
+	height:12px;
+	margin-left:15px;
+	font-size: 12px;
+	margin-top:10px;
+	display: block;
+	float: left;
+	line-height: 12px;
+	cursor: pointer;
+	color:#767676;
+}
+.register .form .content .body p em:hover{
+	color:#333;
+}
+.register .form .content .body .p1{
+	width:100%;
+	height:13px;
+	margin-top:11px;
+}
+.register .form .content .body .p1 input{
+	width:13px;
+	height:13px;
+	border:1px solid #707070;
+	float: left;
+	display: block;
+	margin-right:8px;
+	margin-left:76px;
+	color:#999999;
+}
+.register .form .content .body .p1 label{
+	line-height:13px;
+	font-size: 12px;
+	display: block;
+	cursor: pointer;
+}
+.register .form .content .body .p1 a{
+	float:right;
+	margin-top:-13px;
+	font-size: 12px;
+	line-height: 12px;
+	height:12px;
+	display: block;
+	color:#767676;
+}
+.register .form .content .body .p1 a:hover{
+	color:#333;
+}
+.register .form .content .body .p2{
+	width:54px;
+	height:34px;
+	background: #C13E2C;
+	color:#fff;
+	line-height:34px;
+	text-align: center;
+	font-size: 14px;
+	margin-left:72px;
+	margin-top:3px;
+	border-radius: 3px;
+	cursor: pointer;
+}
+.register .form .content .body .p2:hover{
+	background: #973123;
+}
+.register .form .content .body p:nth-child(1) .m1{
+	position: absolute;
+	left:400px;
+	top:12px;
+	cursor: pointer;
+	display: none;
+}
+.register .form .content .body p:nth-child(1) .n1{
+	position: absolute;
+	left:419px;
+	height:42px;
+	width:171px;
+	top:-7px;
+	background:url('../img/tips.png') no-repeat;
+	display: block;
+	display: none;
+	font-size: 12px;
+	text-align: center;
+	line-height: 42px;
+	font-weight: normal;
+	padding-left:5px;
+}
+.register .form .content .body p:nth-child(2) .m2{
+	position: absolute;
+	left:400px;
+	top:12px;
+	cursor: pointer;
+	display: none;
+	cursor: pointer;
+}
+.register .form .content .body p:nth-child(2) .n2{
+	position: absolute;
+	left:419px;
+	height:42px;
+	width:171px;
+	top:-7px;
+	background:url('../img/tips.png') no-repeat;
+	display: block;
+	display: none;
+	font-size: 12px;
+	text-align: center;
+	line-height: 42px;
+	font-weight: normal;
+	padding-left:5px;
+}
+.register .form .content .body p:nth-child(3) .m3{
+	position: absolute;
+	left:228px;
+	top:12px;
+	cursor: pointer;
+	display: none;
+}

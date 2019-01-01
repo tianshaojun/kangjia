@@ -1,0 +1,74 @@
+[
+  {
+  	"id":"01",
+  	"img":"https://www.konka.com/public/images/2f/57/20/a1a7674f7017d9b3d58411e6f340eb22d601f459.jpg?85241_OW216_OH216",
+  	"title":"R2新变频生态电视",
+  	"con":"悬浮屏/全生态人工智能",
+    "news":"新品",
+  	"price":"￥6999.00",
+    "delPrice":""
+  },
+  {
+  	"id":"02",
+  	"img":"https://www.konka.com/public/images/02/a7/c0/e9d12875b4c8b921b2613981b1b7d36a5a8a512c.jpg?48490_OW216_OH216",
+  	"title":"55英寸无边全面屏电视",
+  	"con":"前置JBL音箱 /人工智能2.0",
+    "news":"",
+  	"price":"￥3499.00",
+  	"delPrice":"￥3999.00"
+  },
+  {
+  	"id":"03",
+  	"img":"https://www.konka.com/public/images/72/8f/8e/9734cc44e9742ce1987712892732f49213fff0ff.jpg?13475_OW216_OH216",
+  	"title":"KKTV 5周年65英寸K5系列",
+  	"con":"4K HDR² /2G+16G存储/A73...",
+    "news":"新品",
+  	"price":"￥3999.00",
+  	"delPrice":"￥4999.00"
+  },
+   {
+  	"id":"04",
+  	"img":"https://www.konka.com/public/images/5f/59/1e/cbf7e0f6c9c93ef3509015e111a16dc1e11e6383.jpg?13477_OW216_OH216",
+  	"title":"KKTV 55英寸智能语音电视",
+  	"con":"金属超薄/2G+16G大内存",
+    "news":"",
+  	"price":"￥2799.00",
+  	"delPrice":"￥3399.00"
+  },
+  {
+  	"id":"05",
+  	"img":"https://www.konka.com/public/images/07/10/8b/b259d48a9e240375b5a0661d3665d78008f7cd23.jpg?24485_OW216_OH216",
+  	"title":"499升风冷无霜对开门冰箱",
+  	"con":"电脑精准温控 / 独有ION保鲜",
+    "news":"",
+  	"price":"￥2549.00",
+  	"delPrice":"￥3299.00"
+  },
+  {
+  	"id":"06",
+  	"img":"https://www.konka.com/public/images/cc/90/e8/35c74ec68ae9ce437f2fadba7f7e28b102326c7a.jpg?17581_OW216_OH216",
+  	"title":"450升风冷无霜冰箱",
+  	"con":"双变频节能 / 电脑温控 ",
+    "news":"",
+  	"price":"￥2699.00",
+  	"delPrice":"￥3099.00"
+  },
+  {
+  	"id":"07",
+  	"img":"https://www.konka.com/public/images/8e/c6/5b/58e44065d2b6691ea53e3f05d117ff3bc9acba42.jpg?24494_OW216_OH216",
+  	"title":"2.5公斤波轮迷你洗衣机",
+  	"con":"WIFI智能 / 高温煮洗 / 婴幼儿...",
+    "news":"",
+  	"price":"￥1599.00",
+  	"delPrice":"￥1799.00"
+  },
+   {
+  	"id":"08",
+  	"img":"https://www.konka.com/public/images/ee/0e/94/221b65e2821637bca799742ef887205f52b13f3d.jpg?24491_OW216_OH216",
+  	"title":"3公斤波轮迷你洗衣机",
+  	"con":"高温煮洗 / 婴幼儿专用",
+    "news":"",
+  	"price":"￥999.00",
+    "delPrice":""
+  }
+]
